@@ -1,0 +1,17 @@
+body {
+background-color: rgb(125, 17, 197);
+}
+
+h1 {
+color: green;
+/*Nome da cor*/
+}
+h2 {
+color: blue;
+/*Código RGB*/
+}
+
+p {
+color: red;
+/*Código Hexadecimal*/
+}
