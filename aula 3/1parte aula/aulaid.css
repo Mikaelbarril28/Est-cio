@@ -1,0 +1,31 @@
+#p1 {
+    color: rgb(2, 214, 214);
+    background-color: red;
+    text-align: center;
+}
+#p2 {
+color: rgb(209, 0, 0);
+background-color: chartreuse;
+text-decoration:line-through;
+text-align: right;
+}
+
+#p3 {
+color: rgb(1, 204, 85);
+background-color: rgb(236, 233, 11);
+text-align: left;
+text-overflow: ellipsis; 
+transition: all 7s ease;
+}
+#p3:hover {
+text-decoration: underline;
+background-color: aqua;
+color: black;
+transition: all .7s ease;
+}
+
+#p2:hover {
+text-decoration: chocolate;
+transform: translateY(2px);
+padding: 50px 0;
+}
