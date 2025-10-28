@@ -1,0 +1,21 @@
+a:link {
+color: rgb(207, 23, 167);
+background-color: rgb(52, 240, 199);
+}
+
+a:visited {
+color: white;
+background-color: rgb(10, 171, 224);
+}
+
+a:hover {
+font-size: 250%;
+text-decoration: none;
+color: rgb(231, 228, 13);
+background-color: rgb(115, 211, 6);
+}
+
+a:active {
+color: rgb(153, 11, 11);
+background-color: deepskyblue;
+}
