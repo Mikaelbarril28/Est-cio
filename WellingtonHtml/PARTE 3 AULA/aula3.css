@@ -1,0 +1,36 @@
+#cabecalho{
+width: 800px;
+height: 100px;
+border: 5px solid blue;
+margin-left: auto;
+margin-right: auto;
+}
+#menu
+{
+width: 800px;
+height: 50px;
+border: 5px solid rgb(25, 151, 0);
+margin-left: auto;
+margin-right: auto;
+}
+#container
+{
+width: 800px;
+height:400px;
+border: 5px solid red;
+margin-left: auto;
+margin-right: auto;
+}
+#central{
+    width: 590px;
+    height: 390px;
+    border: 5px solid yellow;
+    float: left;
+}
+#esquerda
+{
+    width: 190px; 
+    height: 390px;
+    border: 5px solid purple;
+    float: left
+}

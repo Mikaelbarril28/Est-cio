@@ -1,0 +1,17 @@
+#box {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(167, 235, 9);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#box2 {
+    background-color: rgb(166, 13, 255);
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(0, 41, 177);
+    margin-right: auto;
+    margin-left: auto;
+}
