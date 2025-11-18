@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troca de palavras</title>
+</head>
+<body>
+    <button onclick="myFunc()">clique aqui para alterar</button>
+    <p id="p1">Visie o site da Estácio</p>
+    <script>
+        function myFunc(){
+            var y = document.getElementById("p1").innerHTML;
+            var z = y.replace("Estácio", "Youtube");
+            document.getElementById("p1").innerHTML = z;
+        } 
+    </script>
+</body>
+</html>
