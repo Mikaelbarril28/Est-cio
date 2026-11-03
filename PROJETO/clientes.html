@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beleza & Estilo - Gestão de Clientes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo-container">
+        <div class="logo-icon">✂</div>
+        <div class="logo-text">
+          <h1>Beleza & Estilo</h1>
+          <p>Painel da Recepção</p>
+        </div>
+      </div>
+    </header>
+
+    <nav class="tabs">
+      <a href="agendamentos.html" class="tab-item">📅 Agendamentos</a>
+      <a href="catalogo.html" class="tab-item">📋 Catálogo de Serviços</a>
+      <a href="clientes.html" class="tab-item active">👥 Gestão de Clientes (Recepção)</a>
+      <a href="meus-dados.html" class="tab-item">🔒 Meus Dados (LGPD)</a>
+    </nav>
+
+    <!-- US11: Identificação Balcão vs Conta -->
+    <main class="card">
+      <h2>📇 Diretório de Clientes</h2>
+      <p style="color: var(--text-secondary); font-size: 12px; margin: 10px 0 20px 0;">
+        Identificação de vínculo de conta por e-mail (US11)
+      </p>
+
+      <div class="table-row table-header">
+        <span>NOME COMPLETO</span>
+        <span>E-MAIL</span>
+        <span>TIPO DE CADASTRO</span>
+        <span>AÇÕES</span>
+      </div>
+
+      <div class="table-row">
+        <span>Maria Silva</span>
+        <span>maria.silva@email.com</span>
+        <span><span class="badge badge-linked">Conta Vinculada</span></span>
+        <button class="btn-register">Histórico</button>
+      </div>
+
+      <div class="table-row">
+        <span>Ana Souza</span>
+        <span>ana.balcao@email.com</span>
+        <span><span class="badge badge-balcao">Apenas Balcão</span></span>
+        <button class="btn-register">Vincular Conta</button>
+      </div>
+    </main>
+
+    <!-- US12: Pedidos Pendentes de Exclusão LGPD -->
+    <section class="card">
+      <h2 style="color: var(--accent-red);">🗑️ Pedidos Pendentes de Exclusão (LGPD)</h2>
+      <br>
+      <div class="table-row table-header">
+        <span>SOLICITANTE</span>
+        <span>DATA DO PEDIDO</span>
+        <span>STATUS</span>
+        <span>AÇÃO DA RECEPÇÃO</span>
+      </div>
+      <div class="table-row">
+        <span>Carla Dias (carla@email.com)</span>
+        <span>02/11/2026</span>
+        <span style="color: var(--accent-yellow);">Pendente</span>
+        <button class="btn-danger">Confirmar Exclusão</button>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
